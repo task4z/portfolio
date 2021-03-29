@@ -1,0 +1,28 @@
+
+<div class="container" *ngIf="!success">
+    <form  class="form-group" [formGroup]="contactForm" (ngSubmit)="submitContact()">
+        <div class="form-line">
+            <label class="form-label" for="name">{{ 'contact.name' | translate }}</label>
+            <input class="form-input" type="text" formControlName="name" id="name">
+        </div>
+        <div class="form-line">
+            <label class="form-label" for="email">{{ 'contact.email' | translate }}</label>
+            <small class="red" *ngIf="contactForm.controls['email'].invalid && contactForm.controls['email'].touched">{{ 'contact.wrongEmail' | translate }}</small>
+            <input class="form-input" type="text" formControlName="email" id="email">
+        </div>
+        <div class="form-line">
+            <label class="form-label" for="phone" >{{ 'contact.phone' | translate }}</label>
+            <input class="form-input" type="text" formControlName="phone" id="phone">
+        </div>
+        <div class="form-line">
+            <label class="form-label" for="message">{{ 'contact.message' | translate }}</label>
+            <textarea class="form-input" id="message" name="message" rows="3" formControlName="message"></textarea>
+        </div>
+        <div class="btn-div">
+            <button [class.cursor-block]="!contactForm.valid" class="btn-submit" type="submit" [disabled]="!contactForm.valid">{{ 'contact.submit' | translate }}</button>
+        </div>
+        <div class="form-line" *ngIf="error">
+            <p>{{error}}</p>
+        </div>
+    </form>
+</div>

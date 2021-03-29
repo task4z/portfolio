@@ -1,0 +1,23 @@
+{
+    "navbar": {
+        "home": "Início 🏠",
+        "contact": "Contacto 🖊️",
+        "projects": "Projetos 📁",
+        "language": "EN"
+    },
+    "contact":{ 
+        "name": "Nome:",
+        "email": "Email:",
+        "phone": "Telemóvel:",
+        "message": "Mensagem:",
+        "submit": "Enviar:",
+        "wrongEmail":"Email inválido",
+        "thanks":"Obrigado pelo seu contacto.Vamos responder o mais brevemente possível."
+    },
+    "home": {
+        "about": "O meu nome é André Alexandre Fermento Lourenço e faço websites",
+        "description": "Sou um programador com vários anos de experiência que trabalhei com um grande número de clientes",
+        "clients": ["BPI", "NOS", "liqui.do", "Navigator", "EOS France"],
+        "technology": "Construo websites do ZERO com as mais variadas, melhores e mais adequadas ao seu caso"
+    }
+}

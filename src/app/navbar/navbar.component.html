@@ -1,0 +1,20 @@
+<nav>
+    <div class="logo">
+        <img src="../../assets/images/logo.png" alt="André Alexandre Fermento Lourenço logo" width="64px" height="64px" *ngIf="theme === 'DARK'"  routerLink="/home">
+        <img src="../../assets/images/logo-white.png" alt="André Alexandre Fermento Lourenço logo" width="64px" height="64px" *ngIf="theme === 'LIGHT'"  routerLink="/home">
+        <button class="menu-btn" (click)="isOpen = !isOpen">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+    <ul class="menu">
+        <li class="menu-item" [class.open]="isOpen" routerLink="/home" routerLinkActive="active">{{ 'navbar.home' | translate }}</li>
+        <li class="menu-item" [class.open]="isOpen" routerLink="/contact" routerLinkActive="active">{{ 'navbar.contact' | translate }}</li>
+        <li class="menu-item" [class.open]="isOpen" routerLink="/projects" routerLinkActive="active">{{ 'navbar.projects' | translate }}</li>
+        <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
+            {{ 'navbar.language' | translate }}
+        </li>
+        <li class="menu-item" [class.open]="isOpen" (click)="toggleTheme()">
+            <span>🌗</span>
+        </li>
+    </ul>
+</nav>

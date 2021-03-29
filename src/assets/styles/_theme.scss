@@ -1,0 +1,13 @@
+@import "colors";
+
+.theme-light {
+  @each $name, $color in $colors {
+    #{$name}: nth($color, 2);
+  }
+}
+
+.theme-dark {
+  @each $name, $color in $colors {
+    #{$name}: nth($color, 1);
+  }
+}
