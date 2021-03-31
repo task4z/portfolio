@@ -10,11 +10,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
+import { SuccessContactComponent } from './contact/success-contact/success-contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    ProjectsComponent,
+    SuccessContactComponent
   ],
   imports: [
     BrowserModule,

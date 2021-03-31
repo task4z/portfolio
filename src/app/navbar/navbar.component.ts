@@ -4,7 +4,7 @@ import { StorageService } from '../services/storage.service';
 import { UiStyleToggleService } from '../services/ui-style-toggle.service';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'aafl-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
