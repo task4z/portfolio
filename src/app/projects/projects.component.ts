@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'aafl-projects',
+  selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor(public translate: TranslateService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

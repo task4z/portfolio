@@ -1,7 +1,12 @@
 nav{
     display: flex;
-    background-color: var(--toolbar-color);
-    box-shadow: var(--toolbar-text-color) 0em 0em 0.5em 0em;
+    width: 100vw;
+    background-color: var(--card-background);
+    box-shadow: var(--card-background) 0em 0em 0.5em 0em;
+}
+
+.fa.fa-bars{
+    color: var(--toolbar-text-color);
 }
 
 .logo{
@@ -29,6 +34,61 @@ img:focus {
     color: var(--toolbar-text-color);
     border: 1px dashed;
     border-radius: 5px;
-    margin: 0px 0.5em;
+    margin: 0px 1em;
 }
 
+.menu-btn{
+    display: none;
+}
+
+.flag{
+    height: 2em;
+}
+
+
+@media only screen and (max-width: 823px) and (min-width: 668px) {
+    .menu-item{
+        font-size: 1em;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 667px) {
+    .menu-item{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    .menu-item.open{
+        display: block;
+        border: none;
+        text-align: center;
+        background-color: var(--toolbar-text-color);
+        border-bottom: 1px solid var(--card-background);
+        color: var(--card-background);
+        margin: 0em;
+        border-radius: 0em;
+    }
+
+    .menu-btn{
+        float: right;
+        display: block;
+        background-color: transparent;
+        border: 2px solid var(--toolbar-text-color);
+        border-radius: 5px;
+        margin-right: 1em;
+        margin-top: 1.5em;
+    }
+    
+    .menu{
+        display: block;
+        margin: 0;
+    }
+
+    .flag{
+        height: 0.75em;
+    }
+}
