@@ -1,17 +1,11 @@
 .form-label {
-    color: var(--card-background);
+    color: var(--toolbar-text-color);
     font-size: 1.3em;
-}
-
-.container {
-    display: flex;
-    align-items: center;
 }
 
 .form-group{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
     border: 1px solid lightgray;
     padding: 1em 1em;
     border-radius: 5px;
@@ -22,11 +16,7 @@
     font-size: 1.3em;
     border: 1px solid lightgray;
     margin-bottom: 1em;
-    width: 98%;
-}
-
-.form-line{
-    width: 16.35vw;
+    width:100%;
 }
 
 .btn-submit {
@@ -45,4 +35,9 @@
 
 .red{
     color:red;
+}
+
+.bg-color{
+    background-color: var(--bg-color);
+    padding: 1em 1em;
 }
