@@ -1,5 +1,8 @@
 {
     "navbar": {
+        "home": "Início 🏠",
+        "contact": "Contacto 🖊️",
+        "projects": "Projetos 📁",
         "language": "EN"
     },
     "contact":{ 
@@ -7,97 +10,14 @@
         "email": "Email:",
         "phone": "Telemóvel:",
         "message": "Mensagem:",
-        "submit": "Enviar",
+        "submit": "Enviar:",
         "wrongEmail":"Email inválido",
-        "thanks":"Obrigado pelo seu contacto. Vamos responder o mais brevemente possível."
+        "thanks":"Obrigado pelo seu contacto.Vamos responder o mais brevemente possível."
     },
     "home": {
-        "about": "Olá 😁! O meu nome é André Alexandre Fermento Lourenço. Muito gosto em conhecer-te.",
-        "startDate":"01/07/2015",
-        "description": "Sou full-stack developer, eu construo websites e 💓amo o que faço.",
-        "more": "Mais sobre mim",
-        "less": "Esconder sobre mim",
-        "detailDescriptionBeforeYear": "Há cerca de ",
-        "detailDescriptionAfterYear": " anos atrás comecei a minha aventura a trabalhar para clientes na área da informática, trabalhei com as mais diversas empresas clientes e as mais talentosas pessoas. A maioria do meu trabalho tem sido para clientes Portugueses, no entanto atualmente trabalho para clientes internacionais. Tenho trabalho para consultoras e para clientes finais. Passei nos mais variados projetos e áreas e tenho criado sites do 0 como feito a manutenção evolução ou até mesmo a migração de sites existentes."
-    },
-    "clients": {
-        "intro": "Estas são algumas das empresas onde ou com quem eu trabalhei.",
-        "list": [{
-            "name":"EOS France",
-            "description": "coisas"
-        },{
-            "name":"BPI",
-            "description": "coisas"
-        },{
-            "name":"Delloite",
-            "description": "coisas"
-        },{
-            "name":"Nos",
-            "description": "coisas"
-        },{
-            "name":"Navigator",
-            "description": "coisas"
-        },{
-            "name":"Liqui.do",
-            "description": "coisas"
-        }]
-        },
-        "personalProjects":[{
-            "name":"",
-            "image":"",
-            "link":""
-        },{
-            "name":"",
-            "image":"",
-            "link":""
-        },{
-            "name":"",
-            "image":"",
-            "link":""
-        }],
-        "cv":{
-            "link":"",
-            "name":""
-        },
-    "technologys": [{
-            "name": "HTML",
-            "logo":"",
-            "website":""
-        },{
-            "name": "CSS",
-            "logo":"",
-            "website":""
-        },{
-            "name": "JavaScript",
-            "logo":"",
-            "website":""
-        },{
-            "name": "Angular",
-            "logo":"",
-            "website":""
-        },{
-            "name": ".Net",
-            "logo":"",
-            "website":""
-        },{
-            "name": "Wordpress",
-            "logo":"",
-            "website":""
-        }],
-    "socialMedia":[{
-        "name":"facebook",
-        "link":"",
-        "image":""
-    },{
-        "name":"twitter",
-        "link":"",
-        "image":""
-    },{
-        "name":"git",
-        "link":"",
-        "image":""
-        }],
-    "footer":{
-        "copyright":"© desenhado & construido por André Alexandre Fermento Lourenço ♥"
+        "about": "O meu nome é André Alexandre Fermento Lourenço e faço websites",
+        "description": "Sou um programador com vários anos de experiência que trabalhei com um grande número de clientes",
+        "clients": ["BPI", "NOS", "liqui.do", "Navigator", "EOS France"],
+        "technology": "Construo websites do ZERO com as mais variadas, melhores e mais adequadas ao seu caso"
     }
 }
