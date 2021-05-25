@@ -18,40 +18,28 @@
         "more": "More about me",
         "less": "Hide about me",
         "detailDescriptionBeforeYear": "About ",
-        "detailDescriptionAfterYear": " years ago I started my adventure working for clients in the IT field, I worked with a big variety of client companies and the most talented people. The majority of my work was for portuguese clients, but now I work for a internacional one. I have worked for consultant companies to final clients. I have worked for a lot of different fields and I have build websites from 0 I also did maintenance, evolution work and even migration of existing websites.",
+        "detailDescriptionAfterYear": " years ago I started my adventure working for clients in the IT field, I worked with a big variety of client companies and the most talented people. The majority of my work was for portuguese clients, but now I work for a internacional one. I have worked for consultant companies to final clients. I have worked for a lot of different fields and I have build websites from 0 I also did maintenance, evolution work and even migration of existing websites."
     },
     "clients": {
         "intro": "This are some of the companies I have worked with or in",
         "list": [{
-        "name":"EOS France",
-        "link":"bpi.pt",
-        "description": "coisas",
-        "image": "./images/link.jpg"
+            "name":"EOS France",
+            "description": "coisas"
         },{
             "name":"BPI",
-            "link":"bpi.pt",
-            "description": "coisas",
-            "image": "./images/link.jpg"
+            "description": "coisas"
         },{
             "name":"Delloite",
-            "link":"bpi.pt",
-            "description": "coisas",
-            "image": "./images/link.jpg"
+            "description": "coisas"
         },{
             "name":"Nos",
-            "link":"bpi.pt",
-            "description": "coisas",
-            "image": "./images/link.jpg"
+            "description": "coisas"
         },{
             "name":"Navigator",
-            "link":"bpi.pt",
-            "description": "coisas",
-            "image": "./images/link.jpg"
+            "description": "coisas"
         },{
             "name":"Liqui.do",
-            "link":"bpi.pt",
-            "description": "coisas",
-            "image": "./images/link.jpg"
+            "description": "coisas"
         }]
     },
     "personalProjects":[{
@@ -72,29 +60,17 @@
         "name":""
     },
     "technologys": [{
-            "name": "HTML",
-            "logo":"",
-            "website":""
+            "name": "HTML"
         },{
-            "name": "CSS",
-            "logo":"",
-            "website":""
+            "name": "CSS"
         },{
-            "name": "JavaScript",
-            "logo":"",
-            "website":""
+            "name": "JavaScript"
         },{
-            "name": "Angular",
-            "logo":"",
-            "website":""
+            "name": "Angular"
         },{
-            "name": ".Net",
-            "logo":"",
-            "website":""
+            "name": ".Net"
         },{
-            "name": "Wordpress",
-            "logo":"",
-            "website":""
+            "name": "Wordpress"
         }],
     "socialMedia":[{
         "name":"facebook",
@@ -110,6 +86,6 @@
         "image":""
         }],
     "footer":{
-        "copyright":"Copyright AAFL "
+        "copyright":"© designed & built by André Alexandre Fermento Lourenço ♥"
     }
 }

@@ -14,6 +14,7 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { SuccessContactComponent } from './contact/success-contact/success-contact.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { SuccessContactComponent } from './contact/success-contact/success-conta
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
-    SuccessContactComponent
+    SuccessContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

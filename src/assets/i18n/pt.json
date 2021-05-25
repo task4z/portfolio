@@ -18,41 +18,29 @@
         "more": "Mais sobre mim",
         "less": "Esconder sobre mim",
         "detailDescriptionBeforeYear": "Há cerca de ",
-        "detailDescriptionAfterYear": " anos atrás comecei a minha aventura a trabalhar para clientes na área da informática, trabalhei com as mais diversas empresas clientes e as mais talentosas pessoas. A maioria do meu trabalho tem sido para clientes Portugueses, no entanto atualmente trabalho para clientes internacionais. Tenho trabalho para consultoras e para clientes finais. Passei nos mais variados projetos e áreas e tenho criado sites do 0 como feito a manutenção evolução ou até mesmo a migração de sites existentes.",
+        "detailDescriptionAfterYear": " anos atrás comecei a minha aventura a trabalhar para clientes na área da informática, trabalhei com as mais diversas empresas clientes e as mais talentosas pessoas. A maioria do meu trabalho tem sido para clientes Portugueses, no entanto atualmente trabalho para clientes internacionais. Tenho trabalho para consultoras e para clientes finais. Passei nos mais variados projetos e áreas e tenho criado sites do 0 como feito a manutenção evolução ou até mesmo a migração de sites existentes."
     },
     "clients": {
-        "intro": "This are some of the companies I have worked with or in",
-        "list":[{
+        "intro": "Estas são algumas das empresas onde ou com quem eu trabalhei.",
+        "list": [{
             "name":"EOS France",
-            "link":"bpi.pt",
-            "description": "coisas",
-            "image": "./images/link.jpg"
-            },{
-                "name":"BPI",
-                "link":"bpi.pt",
-                "description": "coisas",
-                "image": "./images/link.jpg"
-            },{
-                "name":"Delloite",
-                "link":"bpi.pt",
-                "description": "coisas",
-                "image": "./images/link.jpg"
-            },{
-                "name":"Nos",
-                "link":"bpi.pt",
-                "description": "coisas",
-                "image": "./images/link.jpg"
-            },{
-                "name":"Navigator",
-                "link":"bpi.pt",
-                "description": "coisas",
-                "image": "./images/link.jpg"
-            },{
-                "name":"Liqui.do",
-                "link":"bpi.pt",
-                "description": "coisas",
-                "image": "./images/link.jpg"
-            }]
+            "description": "coisas"
+        },{
+            "name":"BPI",
+            "description": "coisas"
+        },{
+            "name":"Delloite",
+            "description": "coisas"
+        },{
+            "name":"Nos",
+            "description": "coisas"
+        },{
+            "name":"Navigator",
+            "description": "coisas"
+        },{
+            "name":"Liqui.do",
+            "description": "coisas"
+        }]
         },
         "personalProjects":[{
             "name":"",
@@ -110,6 +98,6 @@
         "image":""
         }],
     "footer":{
-        "copyright":"Copyright AAFL "
+        "copyright":"© desenhado & construido por André Alexandre Fermento Lourenço ♥"
     }
 }
