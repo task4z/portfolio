@@ -6,7 +6,7 @@ import { Contact } from '../models/contact-model';
 import { ContactService } from '../services/contact.service';
 
 @Component({
-  selector: 'app-contact',
+  selector: 'aafl-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

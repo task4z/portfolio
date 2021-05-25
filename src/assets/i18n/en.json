@@ -1,8 +1,5 @@
 {
     "navbar": {
-        "home": "Home 🏠",
-        "contact": "Contact 🖊️",
-        "projects": "Projects 📁",
         "language": "PT"
     },
     "contact":{ 
@@ -10,14 +7,85 @@
         "email": "Email:",
         "phone": "Phone:",
         "message": "Message:",
-        "submit": "Submit:",
+        "submit": "Submit",
         "wrongEmail":"Email invalid",
         "thanks":"Thank you for contacting us. We will contact you as soon as we can."
     },
     "home": {
-        "about": "My name is André Alexandre Fermento Lourenço and I make websites",
-        "description": "I am a programmer with many years of experience that worked with many clients",
-        "clients": ["BPI", "NOS", "liqui.do", "Navigator", "EOS France"],
-        "technology": "I build websites from ZERO with the best and more adequate technologys for you"
+        "about": "Hi 😁! My name is André Alexandre Fermento Lourenço. Nice to meet you.",
+        "startDate":"01/07/2015",
+        "description": "I am a full-stack developer, I build websites and I 💓love what I do.",
+        "more": "More about me",
+        "less": "Hide about me",
+        "detailDescriptionBeforeYear": "About ",
+        "detailDescriptionAfterYear": " years ago I started my adventure working for clients in the IT field, I worked with a big variety of client companies and the most talented people. The majority of my work was for portuguese clients, but now I work for a internacional one. I have worked for consultant companies to final clients. I have worked for a lot of different fields and I have build websites from 0 I also did maintenance, evolution work and even migration of existing websites."
+    },
+    "clients": {
+        "intro": "This are some of the companies I have worked with or in",
+        "list": [{
+            "name":"EOS France",
+            "description": "coisas"
+        },{
+            "name":"BPI",
+            "description": "coisas"
+        },{
+            "name":"Delloite",
+            "description": "coisas"
+        },{
+            "name":"Nos",
+            "description": "coisas"
+        },{
+            "name":"Navigator",
+            "description": "coisas"
+        },{
+            "name":"Liqui.do",
+            "description": "coisas"
+        }]
+    },
+    "personalProjects":[{
+        "name":"",
+        "image":"",
+        "link":""
+    },{
+        "name":"",
+        "image":"",
+        "link":""
+    },{
+        "name":"",
+        "image":"",
+        "link":""
+    }],
+    "cv":{
+        "link":"",
+        "name":""
+    },
+    "technologys": [{
+            "name": "HTML"
+        },{
+            "name": "CSS"
+        },{
+            "name": "JavaScript"
+        },{
+            "name": "Angular"
+        },{
+            "name": ".Net"
+        },{
+            "name": "Wordpress"
+        }],
+    "socialMedia":[{
+        "name":"facebook",
+        "link":"",
+        "image":""
+    },{
+        "name":"twitter",
+        "link":"",
+        "image":""
+    },{
+        "name":"git",
+        "link":"",
+        "image":""
+        }],
+    "footer":{
+        "copyright":"© designed & built by André Alexandre Fermento Lourenço ♥"
     }
 }

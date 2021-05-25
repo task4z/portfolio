@@ -1,0 +1,17 @@
+<section class="color-set">
+    <div class="img">
+        <img class="photo scale-in-center" src="../../assets/images/facefoto.jpg" alt="André Lourenço photo" width="150px">
+    </div>
+    <p class="main scale-in-center">{{ 'home.about' | translate }}</p>
+    <p class="main scale-in-center">{{ 'home.description' | translate }}</p>
+    <div class="buttons scale-in-center">
+        <div class="btn-div">
+            <button class="scale-in-center" (click)="showMore=!showMore" [class.hide]="showMore">{{ 'home.more' | translate }}</button>
+        </div>
+        <p class="details scale-in-center" [class.hide]="!showMore">{{ 'home.detailDescriptionBeforeYear' | translate }}{{years}}{{ 'home.detailDescriptionAfterYear' | translate }}</p>
+        <div class="btn-div scale-in-center">
+            <button class="scale-in-center" (click)="showMore=!showMore" [class.hide]="!showMore">{{ 'home.less' | translate }}</button>
+        </div>
+    </div>
+    TESTxpto
+</section>
