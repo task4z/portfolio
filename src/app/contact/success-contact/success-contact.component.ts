@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'aafl-success-contact',
+  selector: 'app-success-contact',
   templateUrl: './success-contact.component.html',
   styleUrls: ['./success-contact.component.scss']
 })
