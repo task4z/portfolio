@@ -12,7 +12,8 @@
         "thanks":"Obrigado pelo seu contacto. Vamos responder o mais brevemente possível."
     },
     "home": {
-        "about": "Olá 😁! O meu nome é André Alexandre Fermento Lourenço. Muito gosto em conhecer-te.",
+        "about": "Olá mundo! O meu nome é ",
+        "name": "André Alexandre Fermento Lourenço",
         "startDate":"01/07/2015",
         "description": "Sou full-stack developer, eu construo websites e 💓amo o que faço.",
         "more": "Mais sobre mim",

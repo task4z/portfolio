@@ -12,7 +12,8 @@
         "thanks":"Thank you for contacting us. We will contact you as soon as we can."
     },
     "home": {
-        "about": "Hi 😁! My name is André Alexandre Fermento Lourenço. Nice to meet you.",
+        "about": "Hello world! My name is ",
+        "name": "André Alexandre Fermento Lourenço",
         "startDate":"01/07/2015",
         "description": "I am a full-stack developer, I build websites and I 💓love what I do.",
         "more": "More about me",

@@ -21,6 +21,8 @@
 
 .btn-submit {
     font-size: 1.3em;
+    background-color: var(--toolbar-text-color);
+    color: var(--toolbar-color);
     cursor: pointer;
 }
 
@@ -33,11 +35,7 @@
     cursor: no-drop;
 }
 
-.red{
-    color:red;
-}
-
 .bg-color{
-    background-color: var(--bg-color);
+    background-color: var(--toolbar-color);
     padding: 2em 0em;
 }

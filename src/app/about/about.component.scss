@@ -1,5 +1,5 @@
 .color-set{
-    background-color: var(--color);
+    background-color: var(--toolbar-color);
     color: var(--toolbar-text-color);
 }
 
@@ -13,6 +13,17 @@ p{
 .main{
     font-size: 2em;
     padding-top: 1em;
+    
+    &-about{
+        font-size: 1.5em;
+        color: var(--color);
+    }
+
+    &-description{
+        color: grey;
+        font-size: 1.5em;
+    }
+
 }
 
 .buttons{

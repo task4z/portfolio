@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    background-color: var(--toolbar-color);
+    background-color: var(--toolbar-text-color);
     box-shadow: var(--toolbar-text-color) 0em 0em 0.5em 0em;
 }
 
@@ -26,8 +26,8 @@ img:focus {
     padding: 0.25em 1em;
     font-size: 1.5em;
     cursor: pointer;
-    color: var(--toolbar-text-color);
-    border: 1px dashed;
+    color: var(--toolbar-color);
+    border: 1px dashed var(--toolbar-color);
     border-radius: 5px;
     margin: 0px 0.5em;
 }

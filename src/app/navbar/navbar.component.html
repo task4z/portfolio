@@ -1,14 +1,30 @@
 <nav>
-    <div class="logo">
-        <img src="../../assets/images/logo.png" alt="André Alexandre Fermento Lourenço logo" width="64px" height="64px" *ngIf="theme === 'DARK'"  routerLink="/home">
-        <img src="../../assets/images/logo-white.png" alt="André Alexandre Fermento Lourenço logo" width="64px" height="64px" *ngIf="theme === 'LIGHT'"  routerLink="/home">
-    </div>
-    <ul class="menu">
-        <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
-            {{ 'navbar.language' | translate }}
-        </li>
-        <li class="menu-item" [class.open]="isOpen" (click)="toggleTheme()">
-            <span>🌗</span>
-        </li>
-    </ul>
+  <div class="logo">
+      <ng-container *ngIf="theme === 'DARK' else logo">
+          <img
+            src="/assets/images/logo-white.png"
+            alt="André Alexandre Fermento Lourenço logo"
+            width="64px"
+            height="64px"
+            routerLink="/home"
+          />
+      </ng-container>
+      <ng-template #logo>
+          <img
+            src="/assets/images/logo.png"
+            alt="André Alexandre Fermento Lourenço logo"
+            width="64px"
+            height="64px"
+            routerLink="/home"
+          />
+      </ng-template>
+  </div>
+  <ul class="menu">
+    <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
+      {{ "navbar.language" | translate }}
+    </li>
+    <li class="menu-item" [class.open]="isOpen" (click)="toggleTheme()">
+      <span>🌗</span>
+    </li>
+  </ul>
 </nav>
