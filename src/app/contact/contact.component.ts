@@ -18,7 +18,7 @@ export class ContactComponent {
     name: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required, 
       Validators.pattern('[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+')]),
-    phone: new FormControl('', [Validators.required]),
+    phone: new FormControl('', []),
     message: new FormControl('',[Validators.required])
   });
 

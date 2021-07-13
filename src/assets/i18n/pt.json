@@ -20,52 +20,59 @@
         "detailDescriptionAfterYear": " anos atrás comecei a minha aventura a trabalhar para clientes na área da informática, trabalhei com as mais diversas empresas clientes e as mais talentosas pessoas. A maioria do meu trabalho tem sido para clientes Portugueses, no entanto atualmente trabalho para clientes internacionais. Tenho trabalho para consultoras e para clientes finais. Passei nos mais variados projetos e áreas e tenho criado sites do 0 como feito a manutenção evolução ou até mesmo a migração de sites existentes."
     },
     "clients": {
-        "intro": "Estas são algumas das empresas onde eu trabalhei.",
+        "intro": "Estas as empresas onde eu trabalhei",
         "list": [{
             "name":"nextmarkets",
-            "description": "Project to do a new website using Angular 11, while maintaining the old one. Main responsibility in developing the website that the clients use to trade stocks, CFD and cryptocurrencies.",
+            "description": "Project to do a new website using Angular 11, while maintaining the old one.<br> Main responsibility in developing the website that the clients use to trade stocks, CFD and cryptocurrencies.",
             "startDate": "04/01/2021",
             "endDate": "Present",
-            "technology": "Angular 12 HTML tailwind NgRX RxJS Primeng"
+            "technology": "Angular 12 HTML tailwind NgRX RxJS Primeng",
+            "site": "https://www.nextmarkets.com"
         },{
             "name":"EOS France",
-            "description": "Project to do a migration Silverlight to .Net Core and Angular 7. Main responsibility in developing the website that the employees use to register the dossiers, debt and persons.",
+            "description": "Project to do a migration Silverlight to .Net Core and Angular 7.<br> Main responsibility in developing the website that the employees use to register the dossiers, debt and persons.",
             "startDate": "05/01/2019",
             "endDate": "04/01/2021",
-            "technology":"Angular 8 HTML bootstrap .Net Core MVC"
+            "technology":"Angular 8 HTML bootstrap .Net Core MVC",
+            "site": "https://eos-france.com/"
         },{
             "name":"BPI",
             "description": "Project of maintenance in AngularJS 1.6, C# and T-SQL main responsibility in developing the website that the employees use to keep track, register and save work hours and tasks with methodology Lean Agile and Scrum.",
             "startDate": "02/01/2018",
             "endDate": "04/01/2019",
-            "technology":"AngularJS HTML bootstrap Entity Framework .Net Framework"
+            "technology":"AngularJS HTML bootstrap Entity Framework .Net Framework",
+            "site": "https://www.bancobpi.pt/"
         },{
             "name":"Delloite",
-            "description": "Project to create a CRM in AngularJS 1.6, Java and PL-SQL. Integrated in the crucial phase of delivering the project to production. Main responsibility for developing a website for the employers to keep track of the contracts made with the clients, answer questions or make new offers for the clients, the biggest project developed to that company since its creation.",
+            "description": "Project to create a CRM in AngularJS 1.6, Java and PL-SQL.<br> Integrated in the crucial phase of delivering the project to production.<br> Main responsibility for developing a website for the employers to keep track of the contracts made with the clients, answer questions or make new offers for the clients, the biggest project developed to that company since its creation.",
             "startDate": "11/01/2017",
             "endDate": "02/01/2018",
-            "technology":"AngularJS HTML bootstrap JSON Java PL-SQL"
+            "technology":"AngularJS HTML bootstrap JSON Java PL-SQL",
+            "site": "https://www2.deloitte.com/pt/pt.html"
         },{
             "name":"Navigator",
-            "description": "Project to sync contacts between Salesforce and Outlook. Using the functionalities that exist in Salesforce, setup of profiles, roles using the data loader insert contacts that exist in Excel to salesforce to sync later with Outlook using Salesforce for Outlook.",
+            "description": "Project to sync contacts between Salesforce and Outlook.<br> Using the functionalities that exist in Salesforce, setup of profiles, roles using the data loader insert contacts that exist in Excel to salesforce to sync later with Outlook using Salesforce for Outlook.",
             "startDate": "10/01/2017",
             "endDate": "11/01/2017",
-            "technology":"Salesforce"
+            "technology":"Salesforce",
+            "site": "http://www.thenavigatorcompany.com/"
         },{
             "name":"Liqui.do",
-            "description": "Build a Salesforce website for the financial area. The website allows clients to approve or reject credit for other companies and also allows them to register new customers, do contracts etc.",
+            "description": "Build a Salesforce website for the financial area.<br> The website allows clients to approve or reject credit for other companies and also allows them to register new customers, do contracts etc.",
             "startDate": "06/01/2017",
             "endDate": "11/01/2017",
-            "technology":"AngularJS, Web services, SOQL, Apex, Salesforce, HTML and CSS."
+            "technology":"AngularJS, Web services, SOQL, Apex, Salesforce, HTML and CSS.",
+            "site": "https://liqui.do/"
         },{
             "name":"Câmara Municipal de Mogadouro",
-            "description": "Parsing of XML (send by EDP) using XPATH.Modelling Database;Create reports related to the consumption of the different buildings;Build C# application to monitor search and inform about building consumption.Build alarms about high energy consumption, high Money consumption. Create and manage user profiles and permission. Manage Department of the users and related buildings;",
+            "description": "Parsing of XML (send by EDP) using XPATH.<br>Modelling Database;<br>Create reports related to the consumption of the different buildings;<br>Build C# application to monitor search and inform about building consumption.<br>Build alarms about high energy consumption, high Money consumption.<br> Create and manage user profiles and permission. <br>Manage Department of the users and related buildings;",
             "startDate": "07/01/2015",
             "endDate": "05/01/2017",
-            "technology":"Windows Forms, XPATH, SSRS, SQL Server 2012, C#, Dataset, T-SQL"
+            "technology":"Windows Forms, XPATH, SSRS, SQL Server 2012, C#, Dataset, T-SQL",
+            "site": "https://www.mogadouro.pt/"
         }]
-        },
-        "personalProjects":[{
+    },
+    "personalProjects":[{
             "name":"",
             "image":"",
             "link":""
@@ -77,11 +84,11 @@
             "name":"",
             "image":"",
             "link":""
-        }],
-        "cv":{
-            "link":"",
-            "name":""
-        },
+    }],
+    "cv":{
+        "link":"",
+        "name":""
+    },
     "technologys": [{
             "name": "HTML",
             "logo":"",
