@@ -2,7 +2,7 @@
   <div class="logo">
       <ng-container *ngIf="theme === 'DARK' else logo">
           <img
-            src="/assets/images/logo-white.png"
+            src="/assets/images/logo.png"
             alt="André Alexandre Fermento Lourenço logo"
             width="64px"
             height="64px"
@@ -11,7 +11,7 @@
       </ng-container>
       <ng-template #logo>
           <img
-            src="/assets/images/logo.png"
+            src="/assets/images/logo-white.png"
             alt="André Alexandre Fermento Lourenço logo"
             width="64px"
             height="64px"
@@ -22,6 +22,9 @@
   <ul class="menu">
     <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
       {{ "navbar.language" | translate }}
+    </li>
+    <li class="menu-item" [class.open]="isOpen" (click)="goTo('contact')">
+      Go to contact
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="toggleTheme()">
       <span>🌗</span>

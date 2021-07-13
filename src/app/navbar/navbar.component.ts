@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { StorageService } from '../services/storage.service';
 import { UiStyleToggleService } from '../services/ui-style-toggle.service';
@@ -14,6 +14,7 @@ export class NavbarComponent {
   public currentLang = 'en';
   public theme: string = '';
   private readonly THEME_KEY = 'THEME';
+  @Output() public navigate: EventEmitter<string> = new EventEmitter();
 
   constructor(private uiStyleToggleService: UiStyleToggleService,
     private storage: StorageService,
@@ -29,6 +30,10 @@ export class NavbarComponent {
   public toggleTheme(): void {
     this.uiStyleToggleService.toggle();
     this.setTheme();
+  }
+
+  public goTo(place: string): void {
+    this.navigate.emit(place);
   }
 
   private setTheme(): void {

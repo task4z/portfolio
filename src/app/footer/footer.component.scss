@@ -2,15 +2,17 @@
     display: flex;
     justify-content: space-evenly;
     padding: 1em 1em;
+    background-color: var(--toolbar-color);
+    border-top: 1px solid grey;
 }
 
 a{
     font-size: 2em;
     text-decoration: none;
-    color: var(--toolbar-color);
+    color: var(--toolbar-text-color);
     padding-inline: 0.25em;
 }
 
 span{
-    color: var(--toolbar-color);
+    color: var(--toolbar-text-color);
 }

@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "language": "PT"
+        "language": "PT | EN"
     },
     "contact":{ 
         "name": "Name:",
@@ -15,7 +15,7 @@
         "about": "Hello world! My name is ",
         "name": "André Alexandre Fermento Lourenço",
         "startDate":"01/07/2015",
-        "description": "I am a full-stack developer, I build websites and I 💓love what I do.",
+        "description": "I am a full-stack developer, I build websites and I love what I do.",
         "more": "More about me",
         "less": "Hide about me",
         "detailDescriptionBeforeYear": "About ",
@@ -25,22 +25,46 @@
         "intro": "This are some of the companies I have worked with or in",
         "list": [{
             "name":"EOS France",
-            "description": "coisas"
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
         },{
             "name":"BPI",
-            "description": "coisas"
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
         },{
             "name":"Delloite",
-            "description": "coisas"
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
         },{
             "name":"Nos",
-            "description": "coisas"
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
         },{
             "name":"Navigator",
-            "description": "coisas"
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
         },{
             "name":"Liqui.do",
-            "description": "coisas"
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
+        },{
+            "name":"CMM",
+            "description": "coisas",
+            "startDate": "",
+            "endDate": "",
+            "technology":""
         }]
     },
     "personalProjects":[{
@@ -87,6 +111,6 @@
         "image":""
         }],
     "footer":{
-        "copyright":"© designed & built by André Alexandre Fermento Lourenço ♥"
+        "copyright":"© designed & built by André Alexandre Fermento Lourenço"
     }
 }

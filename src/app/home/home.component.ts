@@ -1,6 +1,5 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { ViewportScroller } from '@angular/common';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'aafl-home',
@@ -8,7 +7,11 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-
-  constructor() { }
+  
+  constructor(private viewportScroller: ViewportScroller) {}
+    
+  public scrollTo(location: string): void { 
+    this.viewportScroller.scrollToAnchor(location);
+  }
   
 }

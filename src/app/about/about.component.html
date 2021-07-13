@@ -6,13 +6,6 @@
     <p class="main scale-in-center main-name">{{ 'home.name' | translate }}</p>
     <p class="main scale-in-center main-description">{{ 'home.description' | translate }}</p>
     <div class="buttons scale-in-center">
-        <div class="btn-div">
-            <button class="scale-in-center" (click)="showMore=!showMore" [class.hide]="showMore">{{ 'home.more' | translate }}</button>
-        </div>
-        <p class="details scale-in-center" [class.hide]="!showMore">{{ 'home.detailDescriptionBeforeYear' | translate }}{{years}}{{ 'home.detailDescriptionAfterYear' | translate }}</p>
-        <div class="btn-div scale-in-center">
-            <button class="scale-in-center" (click)="showMore=!showMore" [class.hide]="!showMore">{{ 'home.less' | translate }}</button>
-        </div>
+        <p class="details scale-in-center">{{ 'home.detailDescriptionBeforeYear' | translate }}<strong class="aafl-green">{{years}}</strong>{{ 'home.detailDescriptionAfterYear' | translate }}</p>
     </div>
-    TESTxpto
 </section>

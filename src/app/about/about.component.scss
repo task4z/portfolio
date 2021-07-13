@@ -13,10 +13,11 @@ p{
 .main{
     font-size: 2em;
     padding-top: 1em;
+    color: var(--color);
     
     &-about{
         font-size: 1.5em;
-        color: var(--color);
+        color: grey;
     }
 
     &-description{
@@ -36,6 +37,7 @@ p{
 
 .details{
     padding-bottom: 1em;
+    color: grey;
 }
 
 .btn-div{
@@ -56,4 +58,6 @@ p{
     padding-top: 1em;
 }
 
-  
+.aafl-green{
+    color: var(--color);
+}

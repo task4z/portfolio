@@ -15,6 +15,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { SuccessContactComponent } from './contact/success-contact/success-contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { ClientsComponent } from './clients/clients.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     ProjectsComponent,
     SuccessContactComponent,
-    FooterComponent
+    FooterComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
