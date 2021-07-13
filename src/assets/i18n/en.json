@@ -14,57 +14,62 @@
     "home": {
         "about": "Hello world! My name is ",
         "name": "André Alexandre Fermento Lourenço",
-        "startDate":"01/07/2015",
+        "startDate":"07/01/2015",
         "description": "I am a full-stack developer, I build websites and I love what I do.",
-        "more": "More about me",
-        "less": "Hide about me",
         "detailDescriptionBeforeYear": "About ",
         "detailDescriptionAfterYear": " years ago I started my adventure working for clients in the IT field, I worked with a big variety of client companies and the most talented people. The majority of my work was for portuguese clients, but now I work for a internacional one. I have worked for consultant companies to final clients. I have worked for a lot of different fields and I have build websites from 0 I also did maintenance, evolution work and even migration of existing websites."
     },
     "clients": {
-        "intro": "This are some of the companies I have worked with or in",
+        "intro": "These are some of the companies I have worked for",
         "list": [{
+            "name":"nextmarkets",
+            "description": "Project to do a new website using Angular 11, while maintaining the old one.<br> Main responsibility in developing the website that the clients use to trade stocks, CFD and cryptocurrencies.",
+            "startDate": "04/01/2021",
+            "endDate": "Present",
+            "technology": "Angular 12 HTML tailwind NgRX RxJS Primeng",
+            "site": "https://www.nextmarkets.com"
+        },{
             "name":"EOS France",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
+            "description": "Project to do a migration Silverlight to .Net Core and Angular 7.<br> Main responsibility in developing the website that the employees use to register the dossiers, debt and persons.",
+            "startDate": "05/01/2019",
+            "endDate": "04/01/2021",
+            "technology":"Angular 8 HTML bootstrap .Net Core MVC",
+            "site": ""
         },{
             "name":"BPI",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
+            "description": "Project of maintenance in AngularJS 1.6, C# and T-SQL main responsibility in developing the website that the employees use to keep track, register and save work hours and tasks with methodology Lean Agile and Scrum.",
+            "startDate": "02/01/2018",
+            "endDate": "04/01/2019",
+            "technology":"AngularJS HTML bootstrap Entity Framework .Net Framework",
+            "site": ""
         },{
             "name":"Delloite",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
-        },{
-            "name":"Nos",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
+            "description": "Project to create a CRM in AngularJS 1.6, Java and PL-SQL.<br> Integrated in the crucial phase of delivering the project to production.<br> Main responsibility for developing a website for the employers to keep track of the contracts made with the clients, answer questions or make new offers for the clients, the biggest project developed to that company since its creation.",
+            "startDate": "11/01/2017",
+            "endDate": "02/01/2018",
+            "technology":"AngularJS HTML bootstrap JSON Java PL-SQL",
+            "site": ""
         },{
             "name":"Navigator",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
+            "description": "Project to sync contacts between Salesforce and Outlook.<br> Using the functionalities that exist in Salesforce, setup of profiles, roles using the data loader insert contacts that exist in Excel to salesforce to sync later with Outlook using Salesforce for Outlook.",
+            "startDate": "10/01/2017",
+            "endDate": "11/01/2017",
+            "technology":"Salesforce",
+            "site": ""
         },{
             "name":"Liqui.do",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
+            "description": "Build a Salesforce website for the financial area.<br> The website allows clients to approve or reject credit for other companies and also allows them to register new customers, do contracts etc.",
+            "startDate": "06/01/2017",
+            "endDate": "11/01/2017",
+            "technology":"AngularJS, Web services, SOQL, Apex, Salesforce, HTML and CSS.",
+            "site": ""
         },{
-            "name":"CMM",
-            "description": "coisas",
-            "startDate": "",
-            "endDate": "",
-            "technology":""
+            "name":"Câmara Municipal de Mogadouro",
+            "description": "Parsing of XML (send by EDP) using XPATH.<br>Modelling Database;<br>Create reports related to the consumption of the different buildings;<br>Build C# application to monitor search and inform about building consumption.<br>Build alarms about high energy consumption, high Money consumption.<br> Create and manage user profiles and permission. <br>Manage Department of the users and related buildings;",
+            "startDate": "07/01/2015",
+            "endDate": "05/01/2017",
+            "technology":"Windows Forms, XPATH, SSRS, SQL Server 2012, C#, Dataset, T-SQL",
+            "site": ""
         }]
     },
     "personalProjects":[{

@@ -17,6 +17,7 @@
     border: 1px solid lightgray;
     margin-bottom: 1em;
     width:100%;
+    margin-top: 0.5em;
 }
 
 .btn-submit {
@@ -33,9 +34,4 @@
 
 .cursor-block{
     cursor: no-drop;
-}
-
-.bg-color{
-    background-color: var(--toolbar-color);
-    padding: 2em 0em;
 }

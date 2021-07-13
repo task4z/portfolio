@@ -22,4 +22,8 @@ export class ClientsComponent implements OnInit {
       this.clients = e;
     });
   }
+
+  public openTab(site: string):void {
+    window.open(site, '_blank');
+  }
 }

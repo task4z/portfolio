@@ -18,6 +18,14 @@ body{
     margin-inline: 2rem;
 }
 
+@media only screen and (min-width: 1024px) {
+    
+    .container{
+        max-width: 950px;
+        margin-inline: auto;
+    }
+}
+
 p{
     text-align: center;
     color: var(--card-background);
@@ -27,4 +35,17 @@ button {
     font-size: 1.3em;
     border-radius: 5px;
     border-color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.color-set{
+    background-color: var(--toolbar-color);
+    color: var(--toolbar-text-color);
 }

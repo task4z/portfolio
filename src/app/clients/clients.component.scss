@@ -1,12 +1,35 @@
-.bg-color{
-    background-color: var(--toolbar-color);
-    color: var(--toolbar-text-color);
-}
-
 section {
     padding-block: 1em;
 }
 
 p{
     margin: 0;
+}
+
+.clients{
+}
+
+.container-clients{
+    border: 1px solid grey;
+    padding: 1em;
+    border-radius: 5px;
+    margin-block: 1em;
+}
+
+.center {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    font-size: larger;    
+    font-weight: bold;
+
+    .client-name{
+        color: var(--color);
+    }
+}
+
+.tec{
+    color: var(--color);
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
