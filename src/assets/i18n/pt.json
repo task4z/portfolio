@@ -72,22 +72,29 @@
             "site": "https://www.mogadouro.pt/"
         }]
     },
-    "personalProjects":[{
-            "name":"",
+    "personalProjects":{
+        "intro": "Some of my personal projects" ,
+        "list": [{
+            "name":"Uphill",
             "image":"",
-            "link":""
+            "link":"https://uphillchallenge.netlify.app/",
+            "description":""
         },{
-            "name":"",
+            "name":"Valispace",
             "image":"",
-            "link":""
+            "link":"https://valispace.netlify.app/",
+            "description":""
         },{
-            "name":"",
+            "name":"Altar",
             "image":"",
-            "link":""
-    }],
-    "cv":{
-        "link":"",
-        "name":""
+            "link":"https://altarchallenge.netlify.app/",
+            "description":""
+        },{
+            "name":"Wiki",
+            "image":"",
+            "link":"https://alwiki.netlify.app/",
+            "description":""
+        }]
     },
     "technologys": [{
             "name": "HTML",
@@ -113,19 +120,10 @@
             "name": "Wordpress",
             "logo":"",
             "website":""
-        }],
-    "socialMedia":[{
-        "name":"facebook",
-        "link":"",
-        "image":""
-    },{
-        "name":"twitter",
-        "link":"",
-        "image":""
-    },{
-        "name":"git",
-        "link":"",
-        "image":""
+        },{
+            "name": "Typescript",
+            "logo":"",
+            "website":""
         }],
     "footer":{
         "copyright":"© desenhado & construido por André Alexandre Fermento Lourenço"
