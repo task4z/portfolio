@@ -8,9 +8,18 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class ProjectsComponent implements OnInit {
 
+  public projects: any;
+
   constructor(public translate: TranslateService) { }
 
   ngOnInit(): void {
+    this.getProjects();
+  }
+
+  private getProjects(): void {
+    this.translate.get('personalProjects.list').subscribe( e => {
+      this.projects = e;
+    });
   }
 
 }

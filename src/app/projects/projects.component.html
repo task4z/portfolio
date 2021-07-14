@@ -1,3 +1,17 @@
 <section class="color-set">
-    <p>projects works!</p>
+    <div class="container">
+        <p class="intro">{{'personalProjects.intro' | translate}}</p>
+        <div class="projects">
+            <div class="single-project" *ngFor="let project of projects">
+                <div class="project-header">
+                    <a [href]="project.link" target="_blank" class="fa fa-folder-open"></a>
+                    <p>{{project.name}}</p>
+                </div>
+                <p>{{project.description}}</p>
+                <div class="git-icon">
+                    <a [href]="project.git" target="_blank" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

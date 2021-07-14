@@ -73,27 +73,37 @@
         }]
     },
     "personalProjects":{
-        "intro": "Some of my personal projects" ,
+        "intro": "Alguns dos meus projetos pessoais" ,
         "list": [{
             "name":"Uphill",
-            "image":"",
             "link":"https://uphillchallenge.netlify.app/",
-            "description":""
+            "description":"",
+            "technology":"Angular"
         },{
             "name":"Valispace",
-            "image":"",
             "link":"https://valispace.netlify.app/",
-            "description":""
+            "description":"",
+            "technology":"Angular"
         },{
             "name":"Altar",
-            "image":"",
             "link":"https://altarchallenge.netlify.app/",
-            "description":""
+            "description":"",
+            "technology":"Angular bootstrap"
         },{
-            "name":"Wiki",
-            "image":"",
+            "name":"Wikipedia api search",
             "link":"https://alwiki.netlify.app/",
-            "description":""
+            "description":"",
+            "technology":"React"
+        },{
+            "name":"Layout and animation website example",
+            "link":"https://simpletestssite.netlify.app/",
+            "description":"",
+            "technology":"HTML CSS"
+        },{
+            "name":"Cleaning company landing page",
+            "link":"http://rocama.pt/",
+            "description":"",
+            "technology":"Wordpress"
         }]
     },
     "technologys": [{

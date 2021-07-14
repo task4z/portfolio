@@ -8,12 +8,11 @@
                 <div class="flex center">
                     <span class="client-name">{{ client.name }}</span>
                     <span>{{client.startDate | date : 'MMM/yyyy'}} - {{ client.endDate === 'Present' || client.endDate === 'Presente'
-                         ? client.endDate : client.endDate | date : 'MMM/yyyy'}}</span>
+                        ? client.endDate : client.endDate | date : 'MMM/yyyy'}}</span>
                     <a [href]="client.site" target="_blank">
                         <img class="pointer" width="50" height="20" src="/assets/images/external-link-alt-solid.svg" alt="go to site icon">
                     </a>
                 </div>
-                <!-- <i class="fa far fa-folder-open"></i> -->
                 <p [innerHTML]="client.description | translate"></p>
                 <p  class="tec" [innerHTML]="client.technology | translate"></p>
             </div>

@@ -1,7 +1,62 @@
 section {
-    padding-block: 1em;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
-p {
-    margin: 0;
+.center {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+span {
+    color: var(--color);
+}
+
+
+.single-project{
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 25em;
+    padding: 1em;
+}
+
+.intro{
+    padding-bottom: 1em;
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-github {
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--toolbar-text-color);
+    padding-inline: 0.25em;
+}
+
+.fa-folder-open {
+    font-size: xxx-large;
+    color: var(--color);
+    text-decoration: none;
+}
+
+.git-icon {
+    display: flex;
+    justify-content: center;
 }

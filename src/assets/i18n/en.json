@@ -76,24 +76,34 @@
     "intro": "Some of my personal projects" ,
     "list": [{
         "name":"Uphill",
-        "image":"",
         "link":"https://uphillchallenge.netlify.app/",
-        "description":""
+        "description":"A technical challenge in Angular for a company where I needed to use reddit api to get most starred repository accounts and show detail information about them",
+        "git":"https://github.com/task4z/uphill-challenges"
     },{
         "name":"Valispace",
-        "image":"",
         "link":"https://valispace.netlify.app/",
-        "description":""
+        "description":"A technical challenge in Angular for a company where I needed to use a fake database to insert comments in a post",
+        "git":"https://github.com/task4z/valispace"
     },{
         "name":"Altar",
-        "image":"",
         "link":"https://altarchallenge.netlify.app/",
-        "description":""
+        "description":"A technical challenge in Angular for a company where I needed to use ngrx for syncing matrix generation and payment codes",
+        "git":"https://github.com/task4z/altario"
     },{
-        "name":"Wiki",
-        "image":"",
+        "name":"Wikipedia api search",
         "link":"https://alwiki.netlify.app/",
-        "description":""
+        "description":"A wikipedia search engine with reddirects made in react",
+        "git":"https://github.com/task4z/widgets"
+    },{
+        "name":"Website layout example",
+        "link":"https://simpletestssite.netlify.app/",
+        "description":"Pure HTML and CSS website example",
+        "git":"https://github.com/task4z/simplewebsitelayout"
+    },{
+        "name":"Cleaning company",
+        "link":"http://rocama.pt/",
+        "description":"A wordpress website made for a company",
+        "git":""
     }]
     },
     "technologys": [{
