@@ -35,3 +35,54 @@ img:focus {
 .menu-item:first-child{
     padding: 0.45em 1em;
 }
+
+.fa.fa-bars{
+    color: var(--toolbar-text-color);
+}
+
+@media only screen and (max-width: 823px) and (min-width: 668px) {
+    .menu-item{
+        font-size: 1em;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 667px) {
+    .menu-item{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    .menu-item.open{
+        display: block;
+        border: none;
+        text-align: center;
+        background-color: var(--toolbar-text-color);
+        border-bottom: 1px solid var(--card-background);
+        color: var(--card-background);
+        margin: 0em;
+        border-radius: 0em;
+    }
+
+    .menu-btn{
+        float: right;
+        display: block;
+        background-color: transparent;
+        border: 2px solid var(--toolbar-text-color);
+        border-radius: 5px;
+        margin-right: 1em;
+        margin-top: 1.5em;
+    }
+    
+    .menu{
+        display: block;
+        margin: 0;
+    }
+
+    .flag{
+        height: 0.75em;
+    }
+}

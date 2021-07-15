@@ -78,32 +78,38 @@
         "name":"Uphill",
         "link":"https://uphillchallenge.netlify.app/",
         "description":"A technical challenge in Angular for a company where I needed to use reddit api to get most starred repository accounts and show detail information about them",
-        "git":"https://github.com/task4z/uphill-challenges"
+        "git":"https://github.com/task4z/uphill-challenges",
+        "img": "/assets/images/uphil.png"
     },{
         "name":"Valispace",
         "link":"https://valispace.netlify.app/",
         "description":"A technical challenge in Angular for a company where I needed to use a fake database to insert comments in a post",
-        "git":"https://github.com/task4z/valispace"
+        "git":"https://github.com/task4z/valispace",
+        "img": "/assets/images/valispace.png"
     },{
         "name":"Altar",
         "link":"https://altarchallenge.netlify.app/",
         "description":"A technical challenge in Angular for a company where I needed to use ngrx for syncing matrix generation and payment codes",
-        "git":"https://github.com/task4z/altario"
+        "git":"https://github.com/task4z/altario",
+        "img": "/assets/images/altar.png"
     },{
-        "name":"Wikipedia api search",
+        "name":"Wikipedia api",
         "link":"https://alwiki.netlify.app/",
         "description":"A wikipedia search engine with reddirects made in react",
-        "git":"https://github.com/task4z/widgets"
+        "git":"https://github.com/task4z/widgets",
+        "img": "/assets/images/wiki.png"
     },{
-        "name":"Website layout example",
+        "name":"Website layout",
         "link":"https://simpletestssite.netlify.app/",
         "description":"Pure HTML and CSS website example",
-        "git":"https://github.com/task4z/simplewebsitelayout"
+        "git":"https://github.com/task4z/simplewebsitelayout",
+        "img": "/assets/images/layout.png"
     },{
         "name":"Cleaning company",
         "link":"http://rocama.pt/",
         "description":"A wordpress website made for a company",
-        "git":""
+        "git":"",
+        "img": "/assets/images/rocama.png"
     }]
     },
     "technologys": [{
