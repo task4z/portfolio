@@ -40,14 +40,15 @@ img:focus {
     color: var(--toolbar-text-color);
 }
 
-@media only screen and (max-width: 823px) and (min-width: 668px) {
-    .menu-item{
-        font-size: 1em;
-    }
-}
-
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 667px) {
+@media only screen and (max-width: 1024px) {
+    .logo{
+        border-bottom: 1px solid var(--toolbar-text-color);
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
     .menu-item{
         display: none;
     }
@@ -60,21 +61,20 @@ img:focus {
         display: block;
         border: none;
         text-align: center;
-        background-color: var(--toolbar-text-color);
-        border-bottom: 1px solid var(--card-background);
-        color: var(--card-background);
+        background-color: var(--toolbar-color);
+        border-bottom: 1px solid var(--toolbar-text-color);
+        color: var(--color);
         margin: 0em;
         border-radius: 0em;
+        img{
+            max-width: 20px;
+        }
     }
 
     .menu-btn{
-        float: right;
-        display: block;
+        cursor: pointer;
         background-color: transparent;
         border: 2px solid var(--toolbar-text-color);
-        border-radius: 5px;
-        margin-right: 1em;
-        margin-top: 1.5em;
     }
     
     .menu{

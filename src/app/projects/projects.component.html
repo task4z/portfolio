@@ -8,7 +8,9 @@
                     <p class="project-name">{{project.name}}</p>
                 </div>
                 <p class="project-description">{{project.description}}</p>
-                <img [src]="project.img" alt="sample of the project">
+                <a [href]="project.git" target="_blank">
+                    <img [src]="project.img" alt="sample of the project">
+                </a>
                 <div class="git-icon" *ngIf="project.git">
                     <a [href]="project.git" target="_blank" class="fa fa-github"></a>
                 </div>
