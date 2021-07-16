@@ -136,5 +136,23 @@
         }],
     "footer":{
         "copyright":"© designed & built by André Alexandre Fermento Lourenço"
-    }
+    },
+    "certificates": [
+        {
+            "name": "Professional Scrum Master I",
+            "image": "/assets/images/badge-psmi.svg",
+            "link": "https://www.scrum.org/certificates/558570"
+        },{
+            "name": "JavaScript Algorithms and Data Structures",
+            "image": "/assets/images/algo_and_data.png",
+            "link": "https://www.freecodecamp.org/certification/task4z/javascript-algorithms-and-data-structures"
+        },{
+            "name": "Responsive Web Design",
+            "image": "/assets/images/responsive.png",
+            "link": "https://www.freecodecamp.org/certification/task4z/responsive-web-design"
+        },{
+            "name": "Certificate of Professional trainer",
+            "image": "/assets/images/ccp.png",
+            "link": "/assets/ccp.pdf"
+        }]
 }

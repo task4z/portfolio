@@ -1,5 +1,14 @@
 <section class="color-set">
     <div class="container">
-        certificado coco
+        <div class="certificates">
+            <div class="certificate" *ngFor="let certificate of certificates">
+                <div class="certificate-text">
+                    <p>{{ certificate.name }}</p>
+                </div>
+                <a [href]="certificate.link" target="_blank">
+                    <img class="certificate-img" [src]="certificate.image" alt="certificate.name">
+                </a>
+            </div>
+        </div>
     </div>
 </section>

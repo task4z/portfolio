@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'aafl-certificates',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CertificatesComponent implements OnInit {
 
-  constructor() { }
+  public certificates: any[] = [];
+  
+  constructor(public translate: TranslateService) { }
 
   ngOnInit(): void {
+    this.getProjects();
+  }
+
+  private getProjects(): void {
+    this.translate.get('certificates').subscribe( e => {
+      this.certificates = e;
+    });
   }
 
 }
