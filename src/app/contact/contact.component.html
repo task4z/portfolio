@@ -1,6 +1,7 @@
 
 <section class="color-set pb-2">
     <div class="container" *ngIf="!success">
+        <p class="intro">{{'contact.contact' | translate}}</p>
         <form  class="form-group scale-in-center" [formGroup]="contactForm" (ngSubmit)="submitContact()">
             <div class="form-line">
                 <label class="form-label" for="name">{{ 'contact.name' | translate }}</label>

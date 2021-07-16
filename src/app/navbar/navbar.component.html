@@ -26,6 +26,9 @@
     <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
       {{ "navbar.language" | translate }}
     </li>
+    <li class="menu-item" [class.open]="isOpen" (click)="goTo('certificates')">
+      {{ "navbar.certificates" | translate }}
+    </li>
     <li class="menu-item" [class.open]="isOpen" (click)="goTo('clients')">
       {{ "navbar.clients" | translate }}
     </li>

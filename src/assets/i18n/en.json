@@ -1,11 +1,13 @@
 {
     "navbar": {
         "language": "PT | EN",
+        "certificates": "Go to certificates",
         "contact": "Go to contact",
         "clients": "Go to clients",
         "projects": "Go to projects"
     },
-    "contact":{ 
+    "contact":{
+        "contact":"Contact me", 
         "name": "Name:",
         "email": "Email:",
         "phone": "Phone:",
