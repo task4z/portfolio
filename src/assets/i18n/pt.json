@@ -1,6 +1,9 @@
 {
     "navbar": {
-        "language": "PT | EN"
+        "language": "PT | EN",
+        "contact": "Ir para contacto",
+        "clients": "Ir para clientes",
+        "projects": "Ir para projectos"
     },
     "contact":{ 
         "name": "Nome:",

@@ -39,4 +39,8 @@ export class NavbarComponent {
   private setTheme(): void {
     this.theme = this.storage.get(this.THEME_KEY);
   }
+
+  public open(){
+    window.open('/assets/Public_CV_EN_Andre_Lourenco.pdf', '_blank');
+  }
 }

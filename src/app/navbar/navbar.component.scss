@@ -27,17 +27,25 @@ img:focus {
     font-size: 1.5em;
     cursor: pointer;
     color: var(--toolbar-text-color);
-    border: 1px dashed var(--toolbar-text-color);
     border-radius: 5px;
     margin: 0px 0.5em;
 }
 
-.menu-item:first-child{
-    padding: 0.45em 1em;
+.cv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        padding-right: 0.5em;
+    }
 }
 
 .fa.fa-bars{
     color: var(--toolbar-text-color);
+}
+
+.menu-btn {
+    display: none;
 }
 
 /* Extra Small Devices, Phones */ 
