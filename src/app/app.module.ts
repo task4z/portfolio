@@ -10,13 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ContactComponent } from './contact/contact.component';
-import { SuccessContactComponent } from './contact/success-contact/success-contact.component';
+import { AboutComponent } from './home/about/about.component';
+import { ProjectsComponent } from './home/projects/projects.component';
+import { ContactComponent } from './home/contact/contact.component';
+import { SuccessContactComponent } from './home/contact/success-contact/success-contact.component';
 import { FooterComponent } from './footer/footer.component';
-import { ClientsComponent } from './clients/clients.component';
-import { CertificatesComponent } from './certificates/certificates.component';
+import { ClientsComponent } from './home/clients/clients.component';
+import { CertificatesComponent } from './home/certificates/certificates.component';
+import { TechnologyComponent } from './home/technology/technology.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { CertificatesComponent } from './certificates/certificates.component';
     SuccessContactComponent,
     FooterComponent,
     ClientsComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    TechnologyComponent
   ],
   imports: [
     BrowserModule,

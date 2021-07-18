@@ -1,12 +1,13 @@
 {
     "navbar": {
         "language": "PT | EN",
-        "certificates": "Go to certificates",
-        "contact": "Go to contact",
-        "clients": "Go to clients",
-        "projects": "Go to projects"
+        "certificates": "1. Certificates",
+        "contact": "4. Contact me",
+        "clients": "2. Clients",
+        "projects": "3. Personal Projects"
     },
     "contact":{
+        "title": "4. Contact me",
         "contact":"Contact me", 
         "name": "Name:",
         "email": "Email:",
@@ -22,9 +23,10 @@
         "startDate":"07/01/2015",
         "description": "I am a full-stack developer, I build websites and I love what I do.",
         "detailDescriptionBeforeYear": "About ",
-        "detailDescriptionAfterYear": " years ago I started my adventure working for clients in the IT field, I worked with a big variety of client companies and the most talented people. The majority of my work was for portuguese clients, but now I work for a internacional one. I have worked for consultant companies to final clients. I have worked for a lot of different fields and I have build websites from 0 I also did maintenance, evolution work and even migration of existing websites."
+        "detailDescriptionAfterYear": " years ago I started my adventure working for clients in the IT field, I worked with a big variety of client companies and with the most talented people. The majority of my work was for portuguese clients, but now I work for a internacional one. I have worked for consultant companies to final clients. I have worked for a lot of different fields and I have build websites from 0 I also did maintenance, evolution work and even migration of existing websites."
     },
     "clients": {
+        "title": "2. Clients",
         "intro": "These are the companies I have worked for",
         "list": [{
             "name":"nextmarkets",
@@ -78,6 +80,7 @@
         }]
     },
     "personalProjects":{
+    "title": "3. Personal projects",
     "intro": "Some of my personal projects" ,
     "list": [{
             "name":"Uphill",
@@ -117,43 +120,41 @@
             "img": "/assets/images/rocama.png"
         }]
     },
-    "technologys": [{
+    "technologys": {
+        "title": "Technology",
+        "list":[
+        {
             "name": "HTML",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/html.png"
         },{
             "name": "CSS",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/css.png"
         },{
             "name": "JavaScript",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/js.png"
         },{
             "name": "Angular",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/angular.png"
         },{
             "name": "NGrX",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/ngrx-badge.png"
         },{
             "name": ".Net",
-            "logo":"",
-            "website":""
-        },{
-            "name": "Wordpress",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/net.png"
         },{
             "name": "Typescript",
-            "logo":"",
-            "website":""
-        }],
+            "logo":"/assets/images/logos/ts.png"
+        },{
+            "name": "Git",
+            "logo":"/assets/images/logos/git.png"
+        }]
+    },
     "footer":{
         "copyright":"© designed & built by André Alexandre Fermento Lourenço"
     },
-    "certificates": [
+    "certificates": {
+        "title": "1. Certificates",
+        "list":[
         {
             "name": "Professional Scrum Master I",
             "image": "/assets/images/badge-psmi.svg",
@@ -171,4 +172,5 @@
             "image": "/assets/images/ccp.png",
             "link": "/assets/ccp.pdf"
         }]
+    }
 }

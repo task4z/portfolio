@@ -23,9 +23,6 @@
       </button>
   </div>
   <ul class="menu">
-    <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
-      {{ "navbar.language" | translate }}
-    </li>
     <li class="menu-item" [class.open]="isOpen" (click)="goTo('certificates')">
       {{ "navbar.certificates" | translate }}
     </li>
@@ -41,6 +38,9 @@
     <li class="menu-item cv" [class.open]="isOpen" (click)="open()">
       <img src="/assets/images/file-pdf-regular.svg" alt="pdf icon">
       CV
+    </li>
+    <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
+      {{ "navbar.language" | translate }}
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="toggleTheme()">
       <span>🌗</span>

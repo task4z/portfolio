@@ -17,7 +17,7 @@ export class CertificatesComponent implements OnInit {
   }
 
   private getProjects(): void {
-    this.translate.get('certificates').subscribe( e => {
+    this.translate.get('certificates.list').subscribe( e => {
       this.certificates = e;
     });
   }

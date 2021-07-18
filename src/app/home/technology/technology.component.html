@@ -1,0 +1,10 @@
+<section class="color-set">
+    <div class="container">
+        <p class="intro">{{ 'technologys.title' | translate }}</p>
+        <div class="tecs">
+            <ng-container *ngFor="let tec of technologys">
+                <img [src]="tec.logo" [alt]="tec.name" width="50">
+            </ng-container>
+        </div>
+    </div>
+</section>

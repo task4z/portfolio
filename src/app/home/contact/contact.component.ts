@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { Contact } from '../models/contact-model';
-import { ContactService } from '../services/contact.service';
+import { Contact } from '../../models/contact-model';
+import { ContactService } from '../../services/contact.service';
 
 @Component({
   selector: 'aafl-contact',

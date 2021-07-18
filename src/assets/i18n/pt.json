@@ -1,12 +1,13 @@
 {
     "navbar": {
         "language": "PT | EN",
-        "certificates": "Go to certificados",
-        "contact": "Ir para contacto",
-        "clients": "Ir para clientes",
-        "projects": "Ir para projectos"
+        "certificates": "1. Certificados",
+        "contact": "4. Contacte-me",
+        "clients": "2. Clientes",
+        "projects": "3. Projetos pessoais"
     },
     "contact":{ 
+        "title": "4. Contacte-me",
         "contact":"Contacte-me",
         "name": "Nome:",
         "email": "Email:",
@@ -25,6 +26,7 @@
         "detailDescriptionAfterYear": " anos atrás comecei a minha aventura a trabalhar para clientes na área da informática, trabalhei com as mais diversas empresas clientes e as mais talentosas pessoas. A maioria do meu trabalho tem sido para clientes Portugueses, no entanto atualmente trabalho para clientes internacionais. Tenho trabalho para consultoras e para clientes finais. Passei nos mais variados projetos e áreas e tenho criado sites do 0 como feito a manutenção evolução ou até mesmo a migração de sites existentes."
     },
     "clients": {
+        "title": "2. Clientes",
         "intro": "Estas as empresas onde eu trabalhei",
         "list": [{
             "name":"nextmarkets",
@@ -78,6 +80,7 @@
         }]
     },
     "personalProjects":{
+        "title": "3. Projetos pessoais",
         "intro": "Alguns dos meus projetos pessoais" ,
         "list": [{
             "name":"Uphill",
@@ -117,43 +120,41 @@
             "img": "/assets/images/rocama.png"
         }]
     },
-    "technologys": [{
+    "technologys": {
+        "title": "Technology",
+        "list":[
+        {
             "name": "HTML",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/html.png"
         },{
             "name": "CSS",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/css.png"
         },{
             "name": "JavaScript",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/js.png"
         },{
             "name": "Angular",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/angular.png"
         },{
             "name": "NGrX",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/ngrx-badge.png"
         },{
             "name": ".Net",
-            "logo":"",
-            "website":""
-        },{
-            "name": "Wordpress",
-            "logo":"",
-            "website":""
+            "logo":"/assets/images/logos/net.png"
         },{
             "name": "Typescript",
-            "logo":"",
-            "website":""
-        }],
+            "logo":"/assets/images/logos/ts.png"
+        },{
+            "name": "Git",
+            "logo":"/assets/images/logos/git.png"
+        }]
+    },
     "footer":{
         "copyright":"© desenhado & construido por André Alexandre Fermento Lourenço"
     },
-    "certificates": [
+    "certificates": {
+        "title": "1. Certificados",
+        "list":[
         {
             "name": "Professional Scrum Master I",
             "image": "/assets/images/badge-psmi.svg",
@@ -171,4 +172,5 @@
             "image": "/assets/images/ccp.png",
             "link": "/assets/ccp.pdf"
         }]
+    }
 }
