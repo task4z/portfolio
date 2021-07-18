@@ -70,7 +70,7 @@
             "site": "https://liqui.do/"
         },{
             "name":"Câmara Municipal de Mogadouro",
-            "description": "Parsing of XML (send by EDP) using XPATH.<br>Modelling Database;<br>Create reports related to the consumption of the different buildings;<br>Build C# application to monitor search and inform about building consumption.<br>Build alarms about high energy consumption, high Money consumption.<br> Create and manage user profiles and permission. <br>Manage Department of the users and related buildings;",
+            "description": "Parsing of XML (send by EDP) using XPATH.<br>Modelling Database;<br>Create reports related to the consumption of the different buildings;<br>Build C# application to monitor search and inform about building consumption.<br>Build alarms about high energy consumption, high Money consumption.<br> Create and manage user profiles and permission.",
             "startDate": "07/01/2015",
             "endDate": "05/01/2017",
             "technology":"Windows Forms, XPATH, SSRS, SQL Server 2012, C#, Dataset, T-SQL",
@@ -80,55 +80,71 @@
     "personalProjects":{
     "intro": "Some of my personal projects" ,
     "list": [{
-        "name":"Uphill",
-        "link":"https://uphillchallenge.netlify.app/",
-        "description":"A technical challenge in Angular for a company where I needed to use reddit api to get most starred repository accounts and show detail information about them",
-        "git":"https://github.com/task4z/uphill-challenges",
-        "img": "/assets/images/uphil.png"
-    },{
-        "name":"Valispace",
-        "link":"https://valispace.netlify.app/",
-        "description":"A technical challenge in Angular for a company where I needed to use a fake database to insert comments in a post",
-        "git":"https://github.com/task4z/valispace",
-        "img": "/assets/images/valispace.png"
-    },{
-        "name":"Altar",
-        "link":"https://altarchallenge.netlify.app/",
-        "description":"A technical challenge in Angular for a company where I needed to use ngrx for syncing matrix generation and payment codes",
-        "git":"https://github.com/task4z/altario",
-        "img": "/assets/images/altar.png"
-    },{
-        "name":"Wikipedia api",
-        "link":"https://alwiki.netlify.app/",
-        "description":"A wikipedia search engine with reddirects made in react",
-        "git":"https://github.com/task4z/widgets",
-        "img": "/assets/images/wiki.png"
-    },{
-        "name":"Website layout",
-        "link":"https://simpletestssite.netlify.app/",
-        "description":"Pure HTML and CSS website example",
-        "git":"https://github.com/task4z/simplewebsitelayout",
-        "img": "/assets/images/layout.png"
-    },{
-        "name":"Cleaning company",
-        "link":"http://rocama.pt/",
-        "description":"A wordpress website made for a company",
-        "git":"",
-        "img": "/assets/images/rocama.png"
-    }]
+            "name":"Uphill",
+            "link":"https://uphillchallenge.netlify.app/",
+            "description":"A technical challenge in Angular for a company where I needed to use reddit api to get most starred repository accounts and show detail information about them",
+            "git":"https://github.com/task4z/uphill-challenges",
+            "img": "/assets/images/uphil.png"
+        },{
+            "name":"Valispace",
+            "link":"https://valispace.netlify.app/",
+            "description":"A technical challenge in Angular for a company where I needed to use a fake database to insert comments in a post",
+            "git":"https://github.com/task4z/valispace",
+            "img": "/assets/images/valispace.png"
+        },{
+            "name":"Altar",
+            "link":"https://altarchallenge.netlify.app/",
+            "description":"A technical challenge in Angular for a company where I needed to use rxjs for syncing matrix generation and payment codes",
+            "git":"https://github.com/task4z/altario",
+            "img": "/assets/images/altar.png"
+        },{
+            "name":"Wikipedia api",
+            "link":"https://alwiki.netlify.app/",
+            "description":"A wikipedia search engine with reddirects made in react",
+            "git":"https://github.com/task4z/widgets",
+            "img": "/assets/images/wiki.png"
+        },{
+            "name":"Website layout",
+            "link":"https://simpletestssite.netlify.app/",
+            "description":"Pure HTML and CSS website example",
+            "git":"https://github.com/task4z/simplewebsitelayout",
+            "img": "/assets/images/layout.png"
+        },{
+            "name":"Cleaning company",
+            "link":"http://rocama.pt/",
+            "description":"A wordpress website made for a cleaning company",
+            "git":"",
+            "img": "/assets/images/rocama.png"
+        }]
     },
     "technologys": [{
-            "name": "HTML"
+            "name": "HTML",
+            "logo":"",
+            "website":""
         },{
-            "name": "CSS"
+            "name": "CSS",
+            "logo":"",
+            "website":""
         },{
-            "name": "JavaScript"
+            "name": "JavaScript",
+            "logo":"",
+            "website":""
         },{
-            "name": "Angular"
+            "name": "Angular",
+            "logo":"",
+            "website":""
         },{
-            "name": ".Net"
+            "name": "NGrX",
+            "logo":"",
+            "website":""
         },{
-            "name": "Wordpress"
+            "name": ".Net",
+            "logo":"",
+            "website":""
+        },{
+            "name": "Wordpress",
+            "logo":"",
+            "website":""
         },{
             "name": "Typescript",
             "logo":"",
