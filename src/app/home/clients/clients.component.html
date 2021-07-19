@@ -7,7 +7,7 @@
             <div class="flex center">
                 {{ 'clients.intro' | translate}}
             </div>
-            <div class="container-clients grow1-2" *ngFor="let client of clients">
+            <div class="container-clients grow1-1" *ngFor="let client of clients">
                 <div class="flex center">
                     <span class="client-name">{{ client.name }}</span>
                     <span>{{client.startDate | date : 'MMM/yyyy'}} - {{ client.endDate === 'Present' || client.endDate === 'Presente'

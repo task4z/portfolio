@@ -79,6 +79,12 @@ img:focus {
         img{
             max-width: 20px;
         }
+        
+
+        &.cv{
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .menu-btn{

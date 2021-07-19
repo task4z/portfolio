@@ -50,7 +50,7 @@ button {
     color: var(--toolbar-text-color);
 }
 
-.grow, .grow1-1, .grow1-2, .grow2-5{
+.grow, .grow1-1, .grow2-5{
     transition: all .2s ease-in-out; 
 }
 
@@ -60,10 +60,6 @@ button {
 
 .grow1-1:hover { 
     transform: scale(1.1); 
-}
-
-.grow1-2:hover { 
-    transform: scale(1.2); 
 }
 
 .grow2-5:hover { 
