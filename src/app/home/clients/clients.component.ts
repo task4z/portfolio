@@ -17,6 +17,7 @@ export class ClientsComponent implements OnInit {
     this.getClients();
   }
 
+  // !!!TODO not updating language
   private getClients(): void {
     this.translate.get('clients.list').subscribe( e =>{
       this.clients = e;
