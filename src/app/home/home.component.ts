@@ -8,7 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   
-  constructor(private viewportScroller: ViewportScroller) {}
+  constructor(private viewportScroller: ViewportScroller) {
+    this.viewportScroller.scrollToPosition([0, 0]);
+    //window.scrollTo(0,0);
+  }
     
   public scrollTo(location: string): void { 
     this.viewportScroller.scrollToAnchor(location);

@@ -24,23 +24,23 @@
   </div>
   <ul class="menu">
     <li class="menu-item" [class.open]="isOpen" (click)="goTo('certificates')">
-      {{ "navbar.certificates" | translate }}
+      <span class="text">{{ "navbar.certificates" | translate }}</span>
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="goTo('clients')">
-      {{ "navbar.clients" | translate }}
+      <span class="text">{{ "navbar.clients" | translate }}</span>
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="goTo('projects')">
-      {{ "navbar.projects" | translate }}
+      <span class="text">{{ "navbar.projects" | translate }}</span>
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="goTo('contact')">
-      {{ "navbar.contact" | translate }}
+      <span class="text">{{ "navbar.contact" | translate }}</span>
     </li>
     <li class="menu-item cv" [class.open]="isOpen" (click)="open()">
       <img src="/assets/images/file-pdf-regular.svg" alt="pdf icon">
-      CV
+      <span class="text">CV</span>
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
-      {{ "navbar.language" | translate }}
+      <span class="text">{{ "navbar.language" | translate }}</span>
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="toggleTheme()">
       <span>🌗</span>

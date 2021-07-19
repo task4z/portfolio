@@ -3,7 +3,9 @@
         <p class="intro">{{ 'technologys.title' | translate }}</p>
         <div class="tecs">
             <ng-container *ngFor="let tec of technologys">
-                <img [src]="tec.logo" [alt]="tec.name" width="50">
+                <div class="center">
+                    <img class="grow2-5" [src]="tec.logo" [alt]="tec.name" width="50">
+                </div>
             </ng-container>
         </div>
     </div>

@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
   { path: 'thanks', component: SuccessContactComponent },
-  { path: '**', loadChildren: () => import('./not-found/not-found.module').then(m => m.NotFoundModule) },
+  { path: '**', redirectTo: '/home' },
 ];
 
 @NgModule({
