@@ -36,7 +36,9 @@
       <span class="text">{{ "navbar.contact" | translate }}</span>
     </li>
     <li class="menu-item cv" [class.open]="isOpen" (click)="open()">
-      <img src="/assets/images/file-pdf-regular.svg" alt="pdf icon">
+      <div>
+        <img src="/assets/images/file-pdf-regular.svg" alt="pdf icon">
+      </div>
       <span class="text">CV</span>
     </li>
     <li class="menu-item" [class.open]="isOpen" (click)="useLanguage()">
