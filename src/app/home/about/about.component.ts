@@ -21,7 +21,7 @@ export class AboutComponent implements OnInit {
   private service(): void{
     this.translate.get('home.startDate').subscribe((data:any)=> {
       this.years = new Date((new Date() as any) - (new Date(data)as any)).getUTCFullYear()-1970;
-     });
+    });
   }
 
 

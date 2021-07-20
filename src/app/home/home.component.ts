@@ -10,7 +10,6 @@ export class HomeComponent {
   
   constructor(private viewportScroller: ViewportScroller) {
     this.viewportScroller.scrollToPosition([0, 0]);
-    //window.scrollTo(0,0);
   }
     
   public scrollTo(location: string): void { 

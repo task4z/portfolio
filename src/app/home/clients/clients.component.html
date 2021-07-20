@@ -7,12 +7,13 @@
             <div class="flex center">
                 {{ 'clients.intro' | translate}}
             </div>
-            <div class="container-clients grow1-1" *ngFor="let client of clients">
+            <div class="container-clients grow1-1" *ngFor="let client of ('clients.list' | translate)">
                 <div class="flex center">
                     <span class="client-name">{{ client.name }}</span>
                     <span>{{client.startDate | date : 'MMM/yyyy'}} - {{ client.endDate === 'Present' || client.endDate === 'Presente'
                         ? client.endDate : client.endDate | date : 'MMM/yyyy'}}</span>
                     <a [href]="client.site" target="_blank">
+                        <span hidden>Go to site</span>
                         <img class="pointer" width="50" height="20" src="/assets/images/external-link-alt-solid.svg" alt="go to site icon">
                     </a>
                 </div>

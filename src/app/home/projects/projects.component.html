@@ -3,7 +3,7 @@
         <p class="intro m-0 p-0">{{ 'personalProjects.title' | translate}}</p>
         <p class="intro">{{'personalProjects.intro' | translate}}</p>
         <div class="projects">
-            <div class="single-project grow" *ngFor="let project of projects">
+            <div class="single-project grow" *ngFor="let project of ('personalProjects.list' | translate)">
                 <div class="project-header">
                     <a [href]="project.link" target="_blank" class="fa fa-folder-open"></a>
                     <p class="project-name">{{project.name}}</p>

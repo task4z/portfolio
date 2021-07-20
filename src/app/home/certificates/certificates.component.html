@@ -2,11 +2,12 @@
     <div class="container">
         <p class="title">{{ 'certificates.title' | translate }}</p>
         <div class="certificates">
-            <div class="certificate grow1-1" *ngFor="let certificate of certificates">
+            <div class="certificate grow1-1" *ngFor="let certificate of ('certificates.list' | translate)">
                 <div class="certificate-text">
                     <p>{{ certificate.name }}</p>
                 </div>
                 <a [href]="certificate.link" target="_blank">
+                    <span hidden>Certificate image</span>
                     <img class="certificate-img" [src]="certificate.image" alt="certificate.name">
                 </a>
             </div>
