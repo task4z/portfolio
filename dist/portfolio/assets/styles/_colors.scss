@@ -1,0 +1,17 @@
+$toolbar-color: #EEEEEE;
+$toolbar-color-dark: #232323;
+
+$toolbar-text-color: $toolbar-color-dark;
+$toolbar-text-color-dark: $toolbar-color;
+
+$color: #006400;
+$color-dark: #00FF00;
+$bg-color: #D46A6A;
+$bg-color-dark: #550000;
+
+$colors: (
+  --toolbar-color: ($toolbar-color, $toolbar-color-dark),
+  --toolbar-text-color: ($toolbar-text-color, $toolbar-text-color-dark),
+  --bg-color: ($bg-color, $bg-color-dark),
+  --color: ($color, $color-dark),
+)
