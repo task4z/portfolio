@@ -30,14 +30,14 @@
         "intro": "Estas as empresas onde eu trabalhei",
         "list": [{
             "name":"nextmarkets",
-            "description": "Projecto para fazer um website novo recorrendo a Angular 12, enquanto se fazia a manutenção do antigo.<br> Maior reponsabilidade em desenvolver um site onde os clientes podem negociar ações, CFD's e crypto moedas.",
+            "description": "Projecto para fazer um web-trader definindo toda a arquitetura em Angular 12, enquanto se fazia a manutenção do antigo.<br> Maior reponsabilidade em desenvolver um site onde os clientes podem negociar ações, CFD's e crypto moedas.",
             "startDate": "04/01/2021",
             "endDate": "Present",
             "technology": "Angular 12 HTML tailwind NgRX RxJS Primeng",
             "site": "https://www.nextmarkets.com"
         },{
             "name":"EOS France",
-            "description": "Projecto para fazer a migração de Silverlight para .Net Core e Angular 10.<br> Responsabilidade em desenvolver o site que os funcionários usam para registar dossiers, pessoas, dividas e bens.",
+            "description": "Migração de uma applciação Silverlight para .Net Core e Angular 10.<br> Responsabilidade em desenvolver o site que os funcionários usam para registar dossiers, pessoas, dividas e bens.",
             "startDate": "05/01/2019",
             "endDate": "04/01/2021",
             "technology":"Angular 8 HTML bootstrap .Net Core MVC",
@@ -51,21 +51,21 @@
             "site": "https://www.bancobpi.pt/"
         },{
             "name":"Delloite",
-            "description": "Projecto para criar um CRM com AngularJS 1.6, Java e PL-SQL.<br> Integrei a fase crucial de por o projeto em produção.<br> Responsibilidade em desenvolver o site para os empregados consultarem os contratos dos clientes, responder a perguntas ou fazer ofertas de novos produtos, foi o maior desenvolvido pela empresa desde a sua criação.",
+            "description": "Criar um CRM com AngularJS 1.6, Java e PL-SQL.<br> Integrei a fase crucial de por o projeto em produção.<br> Responsibilidade em desenvolver o site para os empregados consultarem os contratos dos clientes, responder a perguntas ou fazer ofertas de novos produtos, foi o maior desenvolvido pela empresa desde a sua criação.",
             "startDate": "11/01/2017",
             "endDate": "02/01/2018",
             "technology":"AngularJS HTML bootstrap JSON Java PL-SQL",
             "site": "https://www2.deloitte.com/pt/pt.html"
         },{
             "name":"Navigator",
-            "description": "Projecto para sincronizar contactos entre o Salesforce e o Outlook.<br> Recorren a funcionalidades que existem no Salesforce, configurar perfis, regras para inserir contactos que existem no Excel e inserir no salesforce para sincronizar com o Outlook.",
+            "description": "Sincronização de contactos entre o Salesforce e o Outlook.<br> Recorren a funcionalidades que existem no Salesforce, configurar perfis, regras para inserir contactos que existem no Excel e inserir no salesforce para sincronizar com o Outlook.",
             "startDate": "10/01/2017",
             "endDate": "11/01/2017",
             "technology":"Salesforce",
             "site": "http://www.thenavigatorcompany.com/"
         },{
             "name":"Liqui.do",
-            "description": "Construir um site com o Salesforce para a area financeira.<br> O site permite aos clientes aproval ou rejeitar credito para outras empresas e permitir registar novos clientes, fazer contractos etc.",
+            "description": "Construir um site com o Salesforce para a area financeira.<br> O site permite aos clientes aprovar ou rejeitar credito para outras empresas e permitir registar novos clientes, fazer contractos etc.",
             "startDate": "06/01/2017",
             "endDate": "11/01/2017",
             "technology":"AngularJS, Web services, SOQL, Apex, Salesforce, HTML e CSS.",
