@@ -1,4 +1,4 @@
-<nav>
+<nav  [class.open]="isOpen">
   <div class="logo">
       <ng-container *ngIf="theme === 'DARK' else logo">
           <img
@@ -13,7 +13,7 @@
           <img
             src="/assets/images/logo-white.png"
             alt="André Alexandre Fermento Lourenço logo"
-            width="64px"
+            width="64px" 
             height="64px"
             routerLink="/home"
           />
