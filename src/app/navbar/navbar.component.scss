@@ -31,7 +31,6 @@ img:focus {
 .cv {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     div {
         width: 1em;
         padding-right: 0.5em;
@@ -48,6 +47,10 @@ img:focus {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width: 1024px) {
+    .main-about{
+        margin-top: 4em;
+    }
+
     .logo{
         border-bottom: 1px solid var(--toolbar-text-color);
         display: flex;
@@ -69,13 +72,15 @@ img:focus {
 
     .menu-item.open{
         display: block;
-        border: none;
-        text-align: center;
         background-color: var(--toolbar-color);
         border-bottom: 1px solid var(--toolbar-text-color);
         color: var(--color);
-        margin: 0em;
-        border-radius: 0em;
+        width: 75%;
+        float: right;
+        border-left: 1px solid var(--toolbar-text-color);
+        padding-right: 0.5em;
+        margin-left: 25%;
+        text-align: end;
         img{
             max-width: 20px;
         }
@@ -83,7 +88,9 @@ img:focus {
 
         &.cv{
             display: flex;
-            justify-content: center;
+        }
+        &.cv div{
+            margin-left: auto;
         }
     }
 
@@ -98,8 +105,24 @@ img:focus {
         margin: 0;
     }
 
+    nav{
+        border-bottom: none;
+    }
+
+    nav.open{
+        height: 18em;
+        border-bottom: none;
+    }
+
     .flag{
         height: 0.75em;
+    }
+
+    .cv{
+        margin-left: auto;
+    }
+    li:last-child{
+        border-radius: 0px 5px;
     }
 }
 
