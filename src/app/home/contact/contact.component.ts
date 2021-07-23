@@ -13,7 +13,7 @@ import { ContactService } from '../../services/contact.service';
 export class ContactComponent {
 
   public error = null;
-  public success = null;
+  public success? = false;
   public contactForm: FormGroup = new FormGroup({
     name: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required, 
@@ -30,7 +30,7 @@ export class ContactComponent {
     this.contactService.send(this.contactForm.value as Contact).subscribe(
       res => {
         if(res.result === "success"){
-          this.router.navigate(['contact/thanks']);
+          this.success = true;
         } else{
           this.error = res.msg;
         }

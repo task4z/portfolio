@@ -15,7 +15,7 @@
         "message": "Message:",
         "submit": "Submit",
         "wrongEmail":"Email invalid",
-        "thanks":"Thank you for contacting us. We will contact you as soon as we can."
+        "thanks":"Thank you for contacting. Will contact you as soon as we can."
     },
     "home": {
         "about": "Hello world! My name is ",

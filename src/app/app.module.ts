@@ -13,7 +13,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './home/about/about.component';
 import { ProjectsComponent } from './home/projects/projects.component';
 import { ContactComponent } from './home/contact/contact.component';
-import { SuccessContactComponent } from './home/contact/success-contact/success-contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { ClientsComponent } from './home/clients/clients.component';
 import { CertificatesComponent } from './home/certificates/certificates.component';
@@ -27,7 +26,6 @@ import { TechnologyComponent } from './home/technology/technology.component';
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
-    SuccessContactComponent,
     FooterComponent,
     ClientsComponent,
     CertificatesComponent,
