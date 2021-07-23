@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Contact } from '../../models/contact-model';
 import { ContactService } from '../../services/contact.service';
@@ -13,7 +12,7 @@ import { ContactService } from '../../services/contact.service';
 export class ContactComponent {
 
   public error = null;
-  public success? = false;
+  public success = false;
   public contactForm: FormGroup = new FormGroup({
     name: new FormControl('', [Validators.required]),
     email: new FormControl('', [Validators.required, 
@@ -23,8 +22,7 @@ export class ContactComponent {
   });
 
   constructor(public translate: TranslateService,
-    private contactService: ContactService,
-    private router: Router) { }
+    private contactService: ContactService) { }
 
   public submitContact(): void {
     this.contactService.send(this.contactForm.value as Contact).subscribe(

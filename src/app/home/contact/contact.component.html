@@ -2,7 +2,7 @@
 <section class="color-set pb-2">    
     <div class="container">
         <p class="intro">{{'contact.title' | translate}}</p>
-        <ng-container *ngIf="!success else success">        
+        <ng-container *ngIf="!success; else success_message">        
             <form  class="form-group scale-in-center" [formGroup]="contactForm" (ngSubmit)="submitContact()">
                 <div class="form-line">
                     <label class="form-label" for="name">{{ 'contact.name' | translate }}</label>
@@ -29,7 +29,7 @@
                 </div>
             </form> 
         </ng-container>
-        <ng-template #success>
+        <ng-template #success_message>
             <span>{{ 'contact.thanks' | translate }}</span>
         </ng-template>
     </div>
