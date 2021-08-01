@@ -25,7 +25,7 @@ export class ContactComponent {
     private contactService: ContactService) { }
 
   public submitContact(): void {
-    this.contactService.send(this.contactForm.value as Contact).subscribe(
+    this.contactService.send(this.contactForm.value as Contact,this.contactForm.controls.message.value.replace(/[^a-zA-Z ]/g, "")).subscribe(
       res => {
         if(res.result === "success"){
           this.success = true;

@@ -12,11 +12,11 @@ export class ContactService {
 
   public incompleteUrl: string = "https://gmail.us1.list-manage.com/subscribe/post-json?u=97e427616d8caf3c33e733fd6&amp;id=5a53cb063d";
 
-  public send(parameter: Contact): Observable<any> {
+  public send(parameter: Contact, message: string): Observable<any> {
     const params = new HttpParams()
 				.set('EMAIL', parameter.email)
 				.set('FNAME', parameter.name)
-				.set('LNAME', parameter.message)
+				.set('LNAME', message)
 				.set('PHONE', parameter.phone)
         .set('b_97e427616d8caf3c33e733fd6_5a53cb063d', '');
         
