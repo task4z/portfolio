@@ -2,7 +2,7 @@
 <section class="color-set pb-2">    
     <div class="container">
         <p class="intro">{{'contact.title' | translate}}</p>
-        <ng-container *ngIf="!success else success">        
+        <ng-container *ngIf="!success; else success_message">        
             <form  class="form-group scale-in-center" [formGroup]="contactForm" (ngSubmit)="submitContact()">
                 <div class="form-line">
                     <label class="form-label" for="name">{{ 'contact.name' | translate }}</label>
@@ -12,10 +12,6 @@
                     <label class="form-label" for="email">{{ 'contact.email' | translate }}</label>
                     <small class="red" *ngIf="contactForm.controls['email'].invalid && contactForm.controls['email'].touched">{{ 'contact.wrongEmail' | translate }}</small>
                     <input class="form-input" type="text" formControlName="email" id="email">
-                </div>
-                <div class="form-line">
-                    <label class="form-label" for="phone" >{{ 'contact.phone' | translate }}</label>
-                    <input class="form-input" type="text" formControlName="phone" id="phone">
                 </div>
                 <div class="form-line">
                     <label class="form-label" for="message">{{ 'contact.message' | translate }}</label>
@@ -29,7 +25,7 @@
                 </div>
             </form> 
         </ng-container>
-        <ng-template #success>
+        <ng-template #success_message>
             <span>{{ 'contact.thanks' | translate }}</span>
         </ng-template>
     </div>
