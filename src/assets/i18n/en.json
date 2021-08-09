@@ -87,37 +87,37 @@
             "link":"https://uphillchallenge.netlify.app/",
             "description":"Technical challenge in Angular where I needed to use reddit api to get most starred repository accounts and show detailed information about them",
             "git":"https://github.com/task4z/uphill-challenges",
-            "img": "/assets/images/uphil.png"
+            "img": "/assets/images/uphil.jpg"
         },{
             "name":"Valispace",
             "link":"https://valispace.netlify.app/",
             "description":"Technical challenge in Angular using a fake database to insert comments in a post",
             "git":"https://github.com/task4z/valispace",
-            "img": "/assets/images/valispace.png"
+            "img": "/assets/images/valispace.jpg"
         },{
             "name":"Altar",
             "link":"https://altarchallenge.netlify.app/",
             "description":"Technical challenge in Angular where rxjs was used for syncing matrix generation and payment codes",
             "git":"https://github.com/task4z/altario",
-            "img": "/assets/images/altar.png"
+            "img": "/assets/images/altar.jpg"
         },{
             "name":"Wikipedia api",
             "link":"https://alwiki.netlify.app/",
             "description":"A wikipedia search engine with redirects made in react",
             "git":"https://github.com/task4z/widgets",
-            "img": "/assets/images/wiki.png"
+            "img": "/assets/images/wiki.jpg"
         },{
             "name":"Website layout",
             "link":"https://simpletestssite.netlify.app/",
             "description":"A simple HTML and CSS website layout example",
             "git":"https://github.com/task4z/simplewebsitelayout",
-            "img": "/assets/images/layout.png"
+            "img": "/assets/images/layout.jpg"
         },{
             "name":"Cleaning company",
             "link":"http://rocama.pt/",
             "description":"Wordpress landing page for a cleaning company",
             "git":"",
-            "img": "/assets/images/rocama.png"
+            "img": "/assets/images/rocama.jpg"
         }]
     },
     "technologys": {
@@ -161,15 +161,15 @@
             "link": "https://www.scrum.org/certificates/558570"
         },{
             "name": "JavaScript Algorithms and Data Structures",
-            "image": "/assets/images/algo_and_data.png",
+            "image": "/assets/images/algo_and_data.jpg",
             "link": "https://www.freecodecamp.org/certification/task4z/javascript-algorithms-and-data-structures"
         },{
             "name": "Responsive Web Design",
-            "image": "/assets/images/responsive.png",
+            "image": "/assets/images/responsive.jpg",
             "link": "https://www.freecodecamp.org/certification/task4z/responsive-web-design"
         },{
             "name": "Certificate of Professional trainer",
-            "image": "/assets/images/ccp.png",
+            "image": "/assets/images/ccp.jpg",
             "link": "/assets/ccp.pdf"
         }]
     }

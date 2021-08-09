@@ -87,37 +87,37 @@
             "link":"https://uphillchallenge.netlify.app/",
             "description":"Um desafio tecnico feito em Angular onde necessitei de usar uma api github para obter os repositorios com mais estrelas e mostrar informações detalhadas sobre os utilizadores.",
             "git":"https://github.com/task4z/uphill-challenges",
-            "img": "/assets/images/uphil.png"
+            "img": "/assets/images/uphil.jpg"
         },{
             "name":"Valispace",
             "link":"https://valispace.netlify.app/",
             "description":"Um desafio tecnico feito em Angular onde necessitei de usar uma base de dados falsa para adicionar comentários a um post",
             "git":"https://github.com/task4z/valispace",
-            "img": "/assets/images/valispace.png"
+            "img": "/assets/images/valispace.jpg"
         },{
             "name":"Altar",
             "link":"https://altarchallenge.netlify.app/",
             "description":"Um desafio tecnico feito em Angular onde necessitei de usar rxjs para gera uma matrix e codigos de pagamento",
             "git":"https://github.com/task4z/altario",
-            "img": "/assets/images/altar.png"
+            "img": "/assets/images/altar.jpg"
         },{
             "name":"Wikipedia api",
             "link":"https://alwiki.netlify.app/",
             "description":"Pesquisa da wikipedia com redirects feito em React",
             "git":"https://github.com/task4z/widgets",
-            "img": "/assets/images/wiki.png"
+            "img": "/assets/images/wiki.jpg"
         },{
             "name":"Website layout",
             "link":"https://simpletestssite.netlify.app/",
             "description":"Site exemplo em HTML e CSS",
             "git":"https://github.com/task4z/simplewebsitelayout",
-            "img": "/assets/images/layout.png"
+            "img": "/assets/images/layout.jpg"
         },{
             "name":"Cleaning company",
             "link":"http://rocama.pt/",
             "description":"Um site em wordpress para uma empresa de limpesas",
             "git":"",
-            "img": "/assets/images/rocama.png"
+            "img": "/assets/images/rocama.jpg"
         }]
     },
     "technologys": {
